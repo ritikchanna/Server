@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt update
-sudo apt install apache2
+sudo apt install apache2 -y
 # Get HTTPS cert
 sudo snap install core; sudo snap refresh core
 sudo apt-get remove certbot -y
